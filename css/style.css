@@ -1,0 +1,35 @@
+.a{
+    width: 80px;
+    height: 80px;
+}
+
+.b{
+    background: #7c4e75;
+    width: 80px;
+    height: 80px;
+}
+
+tr{
+    width: 80px;
+}
+
+#imagem1{
+    position: absolute;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    animation: cavalo 10s infinite;
+}
+
+@keyframes cavalo{
+    0%{top: 0%; left:9%; }
+    12%{top: 21.2%; left: 17%;}
+    25%{top: 44%; left: 24.8%;}
+    37%{top: 65.4%; left: 33.3%;}
+    50%{top: 76%; left: 48.2%;}
+    62%{top: 65.4%; left: 33.3%}
+    75%{top: 44%; left: 24.8%;}
+    84%{top: 21.2%; left: 17%;}
+    100%{top: 0%; left:9%;}
+
+}
